@@ -35,10 +35,9 @@ class ViewController: UIViewController {
 		*	-- titleView button doesn't show
 		*
 		 */
-		navController.navigationBar.topItem!.title = nil	//"Hello???"
+		navController.navigationBar.topItem!.title = "Hello???"
 		navController.navigationBar.topItem!.titleView = titleButton
 		navController.navigationBar.prefersLargeTitles = true
-		navController.navigationBar.topItem!.largeTitleDisplayMode = .always
 	}
 
 }
